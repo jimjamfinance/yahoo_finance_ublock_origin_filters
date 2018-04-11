@@ -2,9 +2,7 @@
 
 ## Instructions for Google Chrome
 
-1. Install the [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) extension.
-
-   (It's a trusted open source advertising blocker which is open source.)
+1. Install the [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) extension, a trusted open source advertising blocker.
 
 2. Once installed, click on uBlock Origin's icon (in the list of icons to the right of the URL bar in Chrome).
 

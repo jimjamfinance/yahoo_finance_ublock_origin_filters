@@ -26,7 +26,7 @@ finance.yahoo.com##div[class*="uv-top-right"]
 ! "Subscribe to Yahoo Finance's Morning Brief"
 finance.yahoo.com##div[id*="FeatureBar"]
 
-! New on Yahoo Finance
+! New on Yahoo Finance: doesn't seem to work though
 finance.yahoo.com##div[class*="feature-promo"]
 finance.yahoo.com##div[class*="nr-applet-main-nav-right"]
 
