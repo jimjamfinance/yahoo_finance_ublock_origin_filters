@@ -27,8 +27,8 @@ finance.yahoo.com##div[class*="uv-top-right"]
 finance.yahoo.com##div[id*="FeatureBar"]
 
 ! New on Yahoo Finance
-finance.yahoo.com##div[id*="feature-promo"]
-finance.yahoo.com##div[id*="nr-applet-main-nav-right"]
+finance.yahoo.com##div[class*="feature-promo"]
+finance.yahoo.com##div[class*="nr-applet-main-nav-right"]
 
 
 ! video news
