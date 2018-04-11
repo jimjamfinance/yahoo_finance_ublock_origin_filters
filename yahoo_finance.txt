@@ -26,6 +26,11 @@ finance.yahoo.com##div[class*="uv-top-right"]
 ! "Subscribe to Yahoo Finance's Morning Brief"
 finance.yahoo.com##div[id*="FeatureBar"]
 
+! New on Yahoo Finance
+finance.yahoo.com##div[id*="feature-promo"]
+finance.yahoo.com##div[id*="nr-applet-main-nav-right"]
+
+
 ! video news
 finance.yahoo.com##li[class*="js-stream-content"]
 
