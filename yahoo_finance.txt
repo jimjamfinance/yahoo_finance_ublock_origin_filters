@@ -1,0 +1,61 @@
+! yahoo finance brutal simplifications
+
+! general yahoo navigation
+finance.yahoo.com##div[id="masterNav"]
+
+! yahoo properties navigation
+finance.yahoo.com##ul[class*="Bgc(#2d1152)"]
+
+! navigation junk
+finance.yahoo.com##li:has(a:has-text(Personal Finance))
+finance.yahoo.com##li:has(a:has-text(Originals))
+finance.yahoo.com##li:has(a:has-text(Technology))
+finance.yahoo.com##li:has(a:has(span:has-text(Sustainability)))
+
+! navigation color junk
+finance.yahoo.com##div[id="YDC-UH"]:style(background-image: none !important)
+finance.yahoo.com##div[id="YDC-Nav"] > div:style(background-image: none !important)
+
+! yahoo mail icon in upper right
+finance.yahoo.com##a[title="Mail"]
+finance.yahoo.com##a[id="uh-mail"]
+
+! lightbulb in upper right
+finance.yahoo.com##div[class*="uv-top-right"]
+
+! "Subscribe to Yahoo Finance's Morning Brief"
+finance.yahoo.com##div[id*="FeatureBar"]
+
+! video news
+finance.yahoo.com##li[class*="js-stream-content"]
+
+! yahoo text ads
+finance.yahoo.com##div[id*="LinkOut-Proxy"]
+
+! other companies
+finance.yahoo.com##div[id="YDC-Col2"]
+
+! popup videos
+finance.yahoo.com##div[id*="QuoteVideo"]
+
+! side news 
+finance.yahoo.com##aside
+
+! slider news
+finance.yahoo.com##div[class*="slick-slider"]
+
+! "sponsor" in news
+finance.yahoo.com##li:has(p:has(a[data-ylk*="sponsor"]))
+
+! Link Broker 
+finance.yahoo.com##li:has(button[data-test="linkPf"])
+!finance.yahoo.com##div[id*="tradeit"]
+!:has(section:has(div[id="fin-tradeit"])))
+!s.yimg.com:os/finance/dd-site/js/tradeit.e9a39537230d568cf849.min.js
+
+! buy/sell links to brokers
+finance.yahoo.com##div[data-test="fin-tradeit-container"]
+
+! Footer 
+finance.yahoo.com##div[id="mrt-node-Lead-4-Footer"]
+
