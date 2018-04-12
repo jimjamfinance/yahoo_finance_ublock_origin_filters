@@ -38,7 +38,8 @@ finance.yahoo.com##li[class*="js-stream-content"]
 finance.yahoo.com##div[id*="LinkOut-Proxy"]
 
 ! other companies
-finance.yahoo.com##div[id="YDC-Col2"]
+! removed this rule because it seems to kill portfolios on the right from the home page
+! finance.yahoo.com##div[id="YDC-Col2"]
 
 ! popup videos
 finance.yahoo.com##div[id*="QuoteVideo"]
