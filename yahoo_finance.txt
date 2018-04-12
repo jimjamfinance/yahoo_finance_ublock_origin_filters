@@ -26,9 +26,8 @@ finance.yahoo.com##div[class*="uv-top-right"]
 ! "Subscribe to Yahoo Finance's Morning Brief"
 finance.yahoo.com##div[id*="FeatureBar"]
 
-! New on Yahoo Finance: doesn't seem to work though
-finance.yahoo.com##div[class*="feature-promo"]
-finance.yahoo.com##div[class*="nr-applet-main-nav-right"]
+! New on Yahoo Finance
+finance.yahoo.com##div[class*="nr-applet-main-nav-right"] > div
 
 
 ! video news
@@ -66,4 +65,4 @@ finance.yahoo.com##div[data-test="fin-tradeit-container"]
 finance.yahoo.com##div[id="mrt-node-Lead-4-Footer"]
 
 ! right column quote footer
-finance.yahoo.com##div[id="mrt-node-Col2-6-Footer"]
+finance.yahoo.com##div[id="Col2-6-Footer"] > div
