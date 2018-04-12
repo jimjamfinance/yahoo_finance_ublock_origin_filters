@@ -62,6 +62,8 @@ finance.yahoo.com##li:has(button[data-test="linkPf"])
 ! buy/sell links to brokers
 finance.yahoo.com##div[data-test="fin-tradeit-container"]
 
-! Footer 
+! footer 
 finance.yahoo.com##div[id="mrt-node-Lead-4-Footer"]
 
+! right column quote footer
+finance.yahoo.com##div[id="mrt-node-Col2-6-Footer"]
